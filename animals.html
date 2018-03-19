@@ -49,10 +49,10 @@
                     </div>
                 </div>
             </header>
-            <main class="home">
+            <main>
                 <div class="vizbox-container">
                     <h2>Featured projects</h2> 
-                    <div class="vizbox">  
+                    <div class="vizbox">   
                         <div class="viz">
                             <div class="container">
                                 <a href="aliens.html">
@@ -64,7 +64,7 @@
                                     </div>
                                 </a>
                             </div>
-                        </div>           
+                        </div>          
                         <div class="viz">
                             <div class="container">
                                 <a href="music.html">
@@ -77,8 +77,8 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="viz">
-                            <div class="container">
+                        <div class="viz selected">
+                            <div class="container selected">
                                 <a href="animals.html">
                                     <img src="images/dogsbball.jpg" alt="Dogs watching b-ball on playground" class="image" style="width:100%">
                                     <div class="middle">
@@ -89,7 +89,6 @@
                                 </a>
                             </div>
                         </div>
- 
                         <div class="viz">
                             <div class="container">
                                 <a href="mars.html">
@@ -125,10 +124,50 @@
                                     </div>
                                 </a>
                             </div>
-                        </div> 
+                        </div>
+     
                     </div>
                 </div>
 
+                <div class="home-content">
+                    <div class="projectstats">
+                        <h3><b>Project:</b> Animal shelter intake analysis</h3>
+                        <p>
+                            Austin, TX animal shelter data analysis, including specific addresses of pet intakes. My role in this
+                            group project was to perform location-based analysis of pet intakes, to identify trends around:
+                            <ul>
+                                <li>Most frequent animal types by geographical area</li>
+                                <li>Any trends around strays vs. animals in homes</li>
+                                <li>Any correlation between intake frequency and proximity to veterinary clinics</li>
+                            </ul>
+                          <b>Features:</b> Google API polling, heat maps, map scatter plots
+                        </p>
+                        <b>Tech stack:</b>
+                        <ul>
+                            <li>Python</li>
+                            <li><a target="_blank" href="https://pandas.pydata.org">Pandas</a></li>
+                            <li><a target="_blank" href="http://www.numpy.org/">Numpy</a></li>
+                            <li><a target="_blank" href="https://jupyter-gmaps.readthedocs.io/en/stable/">Jupyter Gmaps</a></li>
+                            <li><a target="_blank" href="https://developers.google.com/places/">Google Places API</a></li>
+                            <li><a target="_blank" href="https://matplotlib.org/">Matplotlib</a></li>
+                    </ul>
+                        <a class="viewmore" target="_blank" href="https://git.io/vNnVM">
+                            <i class="fa fa-github icon_color"></i>
+                            &nbsp;View on Github
+                        </a>
+                        <hr>
+                        <h4>Screenshots:</h4>                             
+                        <img src="images/heatmap_animals_dogs_1.jpg" alt="Google Maps heatmap: Dogs">
+                        <br /><br />
+                        <img src="images/heatmap_animals_cats_1.jpg" alt="Google Maps heatmap: Cats">
+                        <br /><br />
+                        <img src="images/scatter_dogs_cats_1.jpg" alt="Google scatter map of dogs and cats in Austin">
+                        <br /><br />
+                        <img src="images/scatter_dogs_cats_2 (mid).jpg" alt="Google scatter map of dogs and cats in Austin">
+                        <br /><br />
+                        <img src="images/scatter_vet_count.jpg" alt="Intake count vs. Vet count by geographical radius">    
+                    </div>
+                </div>
             </main>
         </div>
     </div>
