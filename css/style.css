@@ -346,13 +346,6 @@
     font-weight: bold;
 }
 
-/*
-#content > main > .home-content .projectstats a.viewmore:after {
-    content: " \00BB";
-    display: inline;
-}
-*/
-
 #content > main > .home-content {
     display: inline-block; /* IE compatibility */   
     padding: 0 1em 2em 3.3em; 
@@ -458,6 +451,9 @@
 @media only screen and (min-width: 1400px) {
     #content .dropdown .dropbtn {
         min-width: 10em;
+    }
+    #content > header > .menu {
+        width: 337px;
     }
 }
 
