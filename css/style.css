@@ -165,7 +165,7 @@
 }
 #content > main.about {
     display: grid;
-    grid-template-columns: 451px;
+    grid-template-columns: 587px;
 }
 #content > header > .menu > .link > a {
     text-decoration: none;
